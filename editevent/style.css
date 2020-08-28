@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+h1 {
+    height: 200px;
+    text-align: center;
+    margin-top:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li {
+    margin-left:80px;
+    
+}
+li input {
+    display: none;
+}
+li.edit input{
+    display: initial;
+}
+li.edit span{
+    display: none;
+}
+.hide {
+    display: none;
+}

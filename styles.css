@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+    display: flex;
+}
+footer {
+    background: black;
+    color:white;
+    padding: 10px 20px;
+}
+div {
+    background: pink;
+   margin: auto;
+    width:100px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    padding:0 20px 0 0;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            my page!
+        </title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            li {
+                display: inline;
+                background: gray;
+                margin: 10px;
+            }
+            li:first-child {
+                margin-left: 0;
+            }
+            section {
+                display: flex;
+                
+            }
+            div {
+                display: inline-block;
+                width: 100%;
+                background: gray;
+                margin: 1px;
+            }
+            .sales div {
+                background : red;
+            } 
+            .closeouts div {
+                background: blue;
+            }
+            a:hover {
+                background:gold;
+                text-decoration: underline;
+            }
+            #frank {
+                font-size: 200%
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a>home</a></li>
+                <li><a>locations</a></li>
+                <li><a>contact</a></li>
+                <li><a>directions</a></li>
+            </ul>
+        </nav>
+        <section class="feature-box sales" id="frank">
+            <div>section1</div>
+            <div>section2</div>
+            <div>section3</div>
+        </section>
+        <section class="feature-box closeouts">
+            <div>section4</div>
+            <div>section5</div>
+        </section>
+    </body>
+</html>
